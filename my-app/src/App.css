@@ -44,3 +44,24 @@
   aspect-ratio: 1/1;
 
 }
+
+.counter-button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.counter-button-container button {
+  font-size: 18px;
+}
+
+.counter-container {
+  /* background-color: orange; */
+  width: min-content;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.counter-progress {
+  width: 360px
+}
